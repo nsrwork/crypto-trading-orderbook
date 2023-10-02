@@ -1,0 +1,27 @@
+{
+  "name": "crypto-trading-orderbook",
+  "version": "0.1.0",
+  "description": "Order Book for crypto trading",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "prettier": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nsrwork/crypto-trading-orderbook.git"
+  },
+  "author": "nsrwork",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nsrwork/crypto-trading-orderbook/issues"
+  },
+  "homepage": "https://github.com/nsrwork/crypto-trading-orderbook",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^0.34.6",
+    "prettier": "^3.0.3",
+    "vitest": "^0.34.4"
+  }
+}
